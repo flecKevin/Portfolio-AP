@@ -1,0 +1,42 @@
+.container-fluid {
+    background-image: url("../../assets/PNG/backround/header-backround.png");
+    width: 100%;
+    height: 80px;
+    justify-content: space-around;
+}
+
+.row {
+    padding: 0;
+}
+
+#logoAPtxt {
+    width: 130px;
+    color: snow;
+}
+
+#loginbtn {
+    margin-top: 10px;
+    text-align: right;
+
+}
+#loginbtn:hover {
+    color: #750b0b;
+}
+
+#social {
+    text-align: center;
+    color: snow;
+    font-size: 2em;
+}
+
+#socialbtnFb {
+    padding: 1rem;
+}
+
+#socialbtnLk {
+    padding: 1rem;
+}
+
+#socialbtnGh {
+    padding: 1rem;
+}

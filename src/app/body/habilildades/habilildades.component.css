@@ -1,0 +1,71 @@
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    display: block;
+}
+
+.row {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    margin: 0;
+}
+
+#skills {
+    height: 100px;
+    text-align: start;
+    margin: 0;
+}
+
+#html {
+    
+    height: 300px;
+    padding: 20px;
+    
+}
+
+#css {
+    
+    height: 300px;
+    padding: 20px;
+    
+    
+}
+
+#js {
+    
+    height: 300px;
+    padding: 20px;
+    
+}
+#ng {
+    
+    height: 300px;
+    padding: 20px;
+    
+        
+}
+
+#ts {
+    
+    height: 300px;
+    padding: 20px;    
+}
+
+#java {
+    
+    height: 300px;
+    padding: 20px;    
+}
+
+#sql {
+    
+    height: 300px;
+    padding: 20px;    
+}
+
+#spboot {
+    
+    height: 300px;
+    padding: 20px;    
+}
