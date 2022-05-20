@@ -2,11 +2,12 @@
     background-image: url("../../assets/PNG/backround/header-backround.png");
     width: 100%;
     height: 80px;
-    justify-content: space-around;
+    padding: 0;
 }
 
 .row {
     padding: 0;
+
 }
 
 #logoAPtxt {
@@ -24,19 +25,33 @@
 }
 
 #social {
-    text-align: center;
+    display: flex;
+    align-items: center;
     color: snow;
-    font-size: 2em;
+    padding: 0.5rem;
 }
 
 #socialbtnFb {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 #socialbtnLk {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 #socialbtnGh {
-    padding: 1rem;
+    padding: 0.5rem;
 }
+
+/* Celular*/
+
+.container-fluid {
+    flex-direction: row;
+}
+
+#social {
+    display: flex;
+    align-items: center;
+}
+
+

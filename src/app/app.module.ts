@@ -11,6 +11,7 @@ import { HabilildadesComponent } from './body/habilildades/habilildades.componen
 import { EducacionComponent } from './body/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { FormsModule } from '@angular/forms';
+import { ExperienciaComponent } from './body/experiencia/experiencia.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { FormsModule } from '@angular/forms';
     AcercaDeComponent,
     HabilildadesComponent,
     EducacionComponent,
+    ExperienciaComponent,
 
   ],
   imports: [

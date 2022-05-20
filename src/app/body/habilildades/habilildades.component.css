@@ -2,6 +2,13 @@
     width: 100%;
     padding: 0;
     display: block;
+    margin: 0%;
+    background-color: #02152e;
+}
+
+h1 {
+    margin: 0;
+    color: snow;
 }
 
 .row {
@@ -12,60 +19,47 @@
 }
 
 #skills {
-    height: 100px;
-    text-align: start;
+    height: 50px;
+    text-align: center;
     margin: 0;
 }
 
 #html {
-    
-    height: 300px;
-    padding: 20px;
-    
+    height: 200px;
+    padding: 0px; 
 }
 
 #css {
-    
-    height: 300px;
-    padding: 20px;
-    
-    
+    height: 200px;
+    padding: 0px;   
 }
 
 #js {
-    
-    height: 300px;
-    padding: 20px;
-    
+    height: 200px;
+    padding: 0;
 }
+
 #ng {
-    
-    height: 300px;
-    padding: 20px;
-    
-        
+    height: 200px;
+    padding: 0px;     
 }
 
 #ts {
-    
-    height: 300px;
-    padding: 20px;    
+    height: 200px;
+    padding: 0px;    
 }
 
 #java {
-    
-    height: 300px;
-    padding: 20px;    
+    height: 200px;
+    padding: 0px;    
 }
 
 #sql {
-    
-    height: 300px;
-    padding: 20px;    
+    height: 200px;
+    padding: 0px;    
 }
 
-#spboot {
-    
-    height: 300px;
-    padding: 20px;    
+#Github {
+    height: 200px;
+    padding: 0px;
 }
