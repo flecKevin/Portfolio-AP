@@ -4,6 +4,7 @@
     display: block;
     margin: 0%;
     background-color: #02152e;
+    text-align: center;
 }
 
 h1 {
@@ -19,47 +20,8 @@ h1 {
 }
 
 #skills {
-    height: 50px;
+    height: 300px;
     text-align: center;
     margin: 0;
 }
 
-#html {
-    height: 200px;
-    padding: 0px; 
-}
-
-#css {
-    height: 200px;
-    padding: 0px;   
-}
-
-#js {
-    height: 200px;
-    padding: 0;
-}
-
-#ng {
-    height: 200px;
-    padding: 0px;     
-}
-
-#ts {
-    height: 200px;
-    padding: 0px;    
-}
-
-#java {
-    height: 200px;
-    padding: 0px;    
-}
-
-#sql {
-    height: 200px;
-    padding: 0px;    
-}
-
-#Github {
-    height: 200px;
-    padding: 0px;
-}

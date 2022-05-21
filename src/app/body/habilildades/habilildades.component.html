@@ -1,152 +1,188 @@
 <div class="container-fluid">
   <div class="row">
     <h1 class="text-center" id="title">Hard & Soft Skills</h1>
-    <div
-      id="skills"
-      class="text-center col-lg-12 col-m-6 col-s-6 col-xs-6"
-    ></div>
-    <div id="html" class="text-center col-lg-3 col-md-6 col-s-6 col-xs-6">
-      <circle-progress
-        [percent]="94"
-        [radius]="70"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="0"
-        [outerStrokeColor]="'#54b526'"
-        [innerStrokeColor]="'#FFFFFF'"
-        [animation]="true"
-        [animationDuration]="300"
-        [showImage]="true"
-        [imageSrc]="'/assets/PNG/lang-logo/HTML-logo.png'"
-        [imageHeight]="120"
-        [imageWidth]="120"
-        [backgroundPadding]="0"
-      ></circle-progress>
-    </div>
 
-    <div id="css" class="text-center col-lg-3 col-md-6 col-s-6 col-xs-6">
-      <circle-progress
-        [percent]="80"
-        [radius]="70"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="0"
-        [outerStrokeColor]="'#54b526'"
-        [innerStrokeColor]="'#FFFFFF'"
-        [animation]="true"
-        [animationDuration]="300"
-        [showImage]="true"
-        [imageSrc]="'/assets/PNG/lang-logo/CSS-logo.png'"
-        [imageHeight]="130"
-        [imageWidth]="130"
-        [backgroundPadding]="0"
-      ></circle-progress>
-    </div>
-
-    <div id="js" class="text-center col-lg-3 col-md-6 col-s-6 col-xs-6">
-      <circle-progress
-        [percent]="85"
-        [radius]="70"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="0"
-        [outerStrokeColor]="'#54b526'"
-        [innerStrokeColor]="'#FFFFFF'"
-        [animation]="true"
-        [animationDuration]="300"
-        [showImage]="true"
-        [imageSrc]="'/assets/PNG/lang-logo/JavaScript-logo.png'"
-        [imageHeight]="120"
-        [imageWidth]="120"
-        [backgroundPadding]="0"
-      ></circle-progress>
-    </div>
-
-    <div id="ng" class="text-center col-lg-3 col-md-6 col-s-6 col-xs-6">
-      <circle-progress
-        [percent]="90"
-        [radius]="70"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="0"
-        [outerStrokeColor]="'#54b526'"
-        [innerStrokeColor]="'#FFFFFF'"
-        [animation]="true"
-        [animationDuration]="300"
-        [showImage]="true"
-        [imageSrc]="'/assets/PNG/lang-logo/Angular-logo.png'"
-        [imageHeight]="150"
-        [imageWidth]="150"
-        [backgroundPadding]="0"
-      ></circle-progress>
-    </div>
-
-    <div id="ts" class="text-center col-lg-3 col-md-6 col-s-6 col-xs-6">
-      <circle-progress
-        [percent]="80"
-        [radius]="70"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="0"
-        [outerStrokeColor]="'#54b526'"
-        [innerStrokeColor]="'#FFFFFF'"
-        [animation]="true"
-        [animationDuration]="300"
-        [showImage]="true"
-        [imageSrc]="'/assets/PNG/lang-logo/Typescript-logo.png'"
-        [imageHeight]="120"
-        [imageWidth]="120"
-        [backgroundPadding]="0"
-      ></circle-progress>
-    </div>
-
-    <div id="java" class="text-center col-lg-3 col-md-6 col-s-6 col-xs-6">
-      <circle-progress
-        [percent]="94"
-        [radius]="70"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="0"
-        [outerStrokeColor]="'#54b526'"
-        [innerStrokeColor]="'#FFFFFF'"
-        [animation]="true"
-        [animationDuration]="300"
-        [showImage]="true"
-        [imageSrc]="'/assets/PNG//lang-logo/JAVA-logo.png'"
-        [imageHeight]="120"
-        [imageWidth]="120"
-        [backgroundPadding]="0"
-      ></circle-progress>
-    </div>
-
-    <div id="sql" class="text-center col-lg-3 col-md-6 col-s-6 col-xs-6">
-      <circle-progress
-        [percent]="73"
-        [radius]="70"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="0"
-        [outerStrokeColor]="'#54b526'"
-        [innerStrokeColor]="'#FFFFFF'"
-        [animation]="true"
-        [animationDuration]="300"
-        [showImage]="true"
-        [imageSrc]="'/assets/PNG/lang-logo/MYSQL-logo.png'"
-        [imageHeight]="120"
-        [imageWidth]="120"
-        [backgroundPadding]="0"
-      ></circle-progress>
-    </div>
-
-    <div id="github" class="text-center col-lg-3 col-md-6 col-s-6 col-xs-6">
-      <circle-progress
-        [percent]="80"
-        [radius]="70"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="0"
-        [outerStrokeColor]="'#54b526'"
-        [innerStrokeColor]="'#FFFFFF'"
-        [animation]="true"
-        [animationDuration]="300"
-        [showImage]="true"
-        [imageSrc]="'/assets/PNG/lang-logo/Github-logo.png'"
-        [imageHeight]="120"
-        [imageWidth]="120"
-        [backgroundPadding]="0"
-      ></circle-progress>
+    <div id="skills" class="text-center col-lg-12 col-m-6 col-sm-6 col-xs-6">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="text-center carousel-inner">
+          <div class="carousel-item active">
+            <div
+              id="html"
+              class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12"
+            >
+              <circle-progress
+                [percent]="94"
+                [radius]="100"
+                [outerStrokeWidth]="16"
+                [innerStrokeWidth]="0"
+                [outerStrokeColor]="'#54b526'"
+                [innerStrokeColor]="'#FFFFFF'"
+                [animation]="true"
+                [animationDuration]="300"
+                [showImage]="true"
+                [imageSrc]="'/assets/PNG/lang-logo/HTML-logo.png'"
+                [imageHeight]="180"
+                [imageWidth]="180"
+                [backgroundPadding]="0"
+              ></circle-progress>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              id="css"
+              class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12"
+            >
+              <circle-progress
+                [percent]="80"
+                [radius]="100"
+                [outerStrokeWidth]="16"
+                [innerStrokeWidth]="0"
+                [outerStrokeColor]="'#54b526'"
+                [innerStrokeColor]="'#FFFFFF'"
+                [animation]="true"
+                [animationDuration]="300"
+                [showImage]="true"
+                [imageSrc]="'/assets/PNG/lang-logo/CSS-logo.png'"
+                [imageHeight]="200"
+                [imageWidth]="200"
+                [backgroundPadding]="0"
+              ></circle-progress>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              id="js"
+              class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12"
+            >
+              <circle-progress
+                [percent]="85"
+                [radius]="100"
+                [outerStrokeWidth]="16"
+                [innerStrokeWidth]="0"
+                [outerStrokeColor]="'#54b526'"
+                [innerStrokeColor]="'#FFFFFF'"
+                [animation]="true"
+                [animationDuration]="300"
+                [showImage]="true"
+                [imageSrc]="'/assets/PNG/lang-logo/JavaScript-logo.png'"
+                [imageHeight]="180"
+                [imageWidth]="180"
+                [backgroundPadding]="0"
+              ></circle-progress>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              id="ng"
+              class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12"
+            >
+              <circle-progress
+                [percent]="90"
+                [radius]="100"
+                [outerStrokeWidth]="16"
+                [innerStrokeWidth]="0"
+                [outerStrokeColor]="'#54b526'"
+                [innerStrokeColor]="'#FFFFFF'"
+                [animation]="true"
+                [animationDuration]="300"
+                [showImage]="true"
+                [imageSrc]="'/assets/PNG/lang-logo/Angular-logo.png'"
+                [imageHeight]="230"
+                [imageWidth]="230"
+                [backgroundPadding]="0"
+              ></circle-progress>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              id="ts"
+              class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12"
+            >
+              <circle-progress
+                [percent]="80"
+                [radius]="100"
+                [outerStrokeWidth]="16"
+                [innerStrokeWidth]="0"
+                [outerStrokeColor]="'#54b526'"
+                [innerStrokeColor]="'#FFFFFF'"
+                [animation]="true"
+                [animationDuration]="300"
+                [showImage]="true"
+                [imageSrc]="'/assets/PNG/lang-logo/Typescript-logo.png'"
+                [imageHeight]="180"
+                [imageWidth]="180"
+                [backgroundPadding]="0"
+              ></circle-progress>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              id="sql"
+              class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12"
+            >
+              <circle-progress
+                [percent]="73"
+                [radius]="100"
+                [outerStrokeWidth]="16"
+                [innerStrokeWidth]="300"
+                [outerStrokeColor]="'#54b526'"
+                [innerStrokeColor]="'#FFFFFF'"
+                [animation]="true"
+                [animationDuration]="0"
+                [showImage]="true"
+                [imageSrc]="'/assets/PNG/lang-logo/MYSQL-logo.png'"
+                [imageHeight]="180"
+                [imageWidth]="180"
+                [backgroundPadding]="0"
+              ></circle-progress>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              id="github"
+              class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12"
+            >
+              <circle-progress
+                [percent]="80"
+                [radius]="100"
+                [outerStrokeWidth]="16"
+                [innerStrokeWidth]="0"
+                [outerStrokeColor]="'#54b526'"
+                [innerStrokeColor]="'#FFFFFF'"
+                [animation]="true"
+                [animationDuration]="300"
+                [showImage]="true"
+                [imageSrc]="'/assets/PNG/lang-logo/Github-logo.png'"
+                [imageHeight]="180"
+                [imageWidth]="180"
+                [backgroundPadding]="0"
+              ></circle-progress>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
   </div>
 </div>
