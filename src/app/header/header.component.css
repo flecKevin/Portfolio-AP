@@ -9,7 +9,6 @@
     padding: 0;
     display: flex;
     flex-direction: row;
-
 }
 
 #logoAPtxt {
@@ -20,8 +19,8 @@
 #loginbtn {
     margin-top: 10px;
     text-align: end;
-
 }
+
 #loginbtn:hover {
     color: #750b0b;
 }
@@ -47,9 +46,14 @@
 /* Celular*/
 
 .container-fluid {
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
 }
 
 #loginbtn {
+
+}
+
+#social {
 
 }
